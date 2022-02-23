@@ -63,7 +63,7 @@ RUN apt-get update && apt-get -t buster-backports install -y \
     libcairo2-dev libjpeg62-turbo-dev libpng-dev libtool-bin uuid-dev libossp-uuid-dev \
     libavcodec-dev libavformat-dev libavutil-dev libswscale-dev \
     freerdp2-dev libpango1.0-dev libssh2-1-dev libtelnet-dev libvncserver-dev libwebsockets-dev libpulse-dev \
-    libssl-dev libvorbis-dev libwebp-dev
+    libssl-dev libvorbis-dev libwebp-dev ghostscript
 
 # Install guacamole-server
 RUN curl -SLO "http://apache.org/dyn/closer.cgi?action=download&filename=guacamole/${GUAC_VER}/source/guacamole-server-${GUAC_VER}.tar.gz" \
